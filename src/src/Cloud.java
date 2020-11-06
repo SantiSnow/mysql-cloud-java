@@ -11,7 +11,7 @@ public class Cloud {
 		
 		Connection miConexion;
 		try {
-			miConexion = DriverManager.getConnection("jdbc:mysql://umhwqqc5npdwycb3:W7X8MafxOtJg0qEZh06k@bmtqayoefjwgd9v0kf8y-mysql.services.clever-cloud.com:3306/bmtqayoefjwgd9v0kf8y", "umhwqqc5npdwycb3", "W7X8MafxOtJg0qEZh06k");
+			miConexion = DriverManager.getConnection("uri", "usr", "pass");
 			Statement miStatement = miConexion.createStatement();
 			
 			System.out.println("Conexion exitosa");
